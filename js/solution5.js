@@ -21,10 +21,6 @@
 
 
 function sumArray(array) {
-    if(array === null || array === undefined || array.length <= 1) {
-        return 0
-    }
-    return (array.reduce((a,b) => a + b))-(Math.min(...array))-(Math.max(...array))
+    return (array === null || array === undefined || array.length <= 1) ? 0 :(array.reduce((a,b) => a + b))-(Math.min(...array))-(Math.max(...array))
 }
-
 console.log(sumArray([6, 2, 1, 8, 10]))
