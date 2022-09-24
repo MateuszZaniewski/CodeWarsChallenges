@@ -26,5 +26,4 @@ function evenNumbers(array, number) {
     })
     return newArr.slice(-number)
 }
-
 console.log(evenNumbers([6, -25, 3, 7, 5, 5, 7, -3, 23], 1))
