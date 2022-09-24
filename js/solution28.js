@@ -21,7 +21,6 @@
 
 const binaryArrayToNumber = arr => {
     let x = (arr.join(''))
-    console.log(x)
     return parseInt(x, 2)
   }
 
